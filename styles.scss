@@ -1,0 +1,45 @@
+div {
+  display: flex;
+  gap: 1em;
+  justify-content: flex-end;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+section {
+  display: flex;
+  margin-top: 10%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+
+  input {
+    border-radius: 8px;
+    padding: 10px;
+    width: auto;
+  }
+
+  .search-bar {
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    display: inherit;
+    flex-direction: column;
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+
+    div {
+      flex-direction: row;
+    }
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+}

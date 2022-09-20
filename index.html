@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google Search</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -9,9 +10,20 @@
       <h3><a href="./image-search.html">Image search</a></h3>
       <h3><a href="./advanced-search.html">Advanced search</a></h3>
     </div>
-    <form action="https://www.google.com/search">
-      <input type="text" name="q" />
-      <input type="submit" value="Google Search" />
-    </form>
+    <section>
+      GoogleClone
+      <form action="https://www.google.com/search">
+        <input
+          class="search-bar"
+          type="text"
+          name="q"
+          placeholder="search here..."
+        />
+        <div>
+          <input type="submit" value="Google Search" name="btnK" />
+          <input type="submit" name="btnI" value="I'm feeling lucky" />
+        </div>
+      </form>
+    </section>
   </body>
 </html>
